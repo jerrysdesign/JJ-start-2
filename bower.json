@@ -1,0 +1,33 @@
+{
+  "name": "jjstart2",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jerrysdesign/jjstart2",
+  "authors": [
+    "jj <jerry@junnnnj.com>"
+  ],
+  "description": "Boilerplate for a combination of ECMAScript 6 and Gulp.js",
+  "main": "gulpfile.babel.js",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "boilerplate",
+    "preset",
+    "gulp",
+    "es6",
+    "gulpjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha",
+    "normalize-strings": "normalize#~1.0.4"
+  }
+}
