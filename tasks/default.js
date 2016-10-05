@@ -6,12 +6,12 @@ import sequence from 'run-sequence';
 gulp.task('default', ['clean'], () => {
   sequence(
     'clean',
-    ['scripts', 'fonts', 'images', 'pug', 'markup', 'styles'],
+    ['scripts', 'fonts', 'images', 'slim', 'markup', 'styles'],
     'server'
   );
 
   gulp.watch(join(src, 'images', '**/*'), ['images']);
-  gulp.watch(join(src, 'pug', '**/*'), ['pug']);
+  gulp.watch(join(src, 'slim', '**/*'), ['slim']);
   gulp.watch(join(src, 'html', '**/*.html'), ['markup']);
   gulp.watch(join(src, 'styles', '**/*.{scss,sass}'), ['styles']);
 });

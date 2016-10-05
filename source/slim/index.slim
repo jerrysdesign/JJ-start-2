@@ -1,19 +1,19 @@
 doctype html
-html(lang='en')
+html lang='en'
   head
-    meta(charset='UTF-8')
+    meta charset='UTF-8'
     title JJ Start 2
-    link(rel='stylesheet', href='styles/main.css')
+    link rel='stylesheet' href='styles/main.css'
   body
-    div(style='height: 0; width: 0; position: absolute; visibility: hidden')
+    div style='height: 0; width: 0; position: absolute; visibility: hidden'
       // inject:svg
       // endinject
     .container
       .welcome.row
         .col-sm-12
-          svg.logo(viewbox='0 0 100 100')
-            use(xlink:href='#logo')
-          h3 Welcome to the Boilerplate!PUG!
+          svg.logo viewbox='0 0 100 100'
+            use xlink:href='#logo'
+          h3 Welcome to the Boilerplate!SLIM!
       .row
         .grid.col-lg-4.col-md-6.col-sm-12
         .grid.col-lg-8.col-md-6.col-sm-12
@@ -25,5 +25,5 @@ html(lang='en')
         .grid.col-lg-4.col-md-6.col-sm-12
         .grid.col-lg-6.col-md-6.col-sm-12
         .grid.col-lg-6.col-md-6.col-sm-12
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
-    script(src='bundle.min.js')
+    script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'
+    script src='bundle.min.js'

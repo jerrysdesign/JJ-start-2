@@ -25,7 +25,7 @@ gulp.task('sprites', () => {
     .pipe(svgstore({ inlineSvg: true }));
 });
 
-gulp.task('markup', ['sprites', 'pug'], () => {
+gulp.task('markup', ['sprites', 'slim'], () => {
   const spriteTransform = (filePath, file) => {
     return file.contents.toString();
   };
